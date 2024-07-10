@@ -20,6 +20,7 @@
         }
         .container {
             text-align: center;
+            padding: 0 20px; /* Add padding for mobile view */
         }
         .header h1 {
             margin: 0;
@@ -69,6 +70,7 @@
             border-radius: 10px;
             border: 1px solid #d3d3d300;
             width: 500px;
+            max-width: 90%; /* Adjust for mobile view */
             font-size: 16px;
             transition: background-color 0.3s ease;
             position: relative;
@@ -116,6 +118,34 @@
             margin-top: 30px;
             font-size: 14px;
             color: #888;
+        }
+
+        @media (max-width: 768px) {
+            body, html {
+                overflow: auto; /* Allow scrolling on mobile */
+            }
+            .container {
+                padding: 10px; /* Reduce padding for smaller screens */
+            }
+            .header h1 {
+                font-size: 1.5rem; /* Adjust font size for smaller screens */
+            }
+            .button {
+                width: 100%; /* Make buttons full width */
+                padding: 15px; /* Adjust padding */
+            }
+            .button img {
+                width: 40px; /* Adjust image size */
+                height: 40px; /* Adjust image size */
+            }
+            .button-content {
+                width: calc(100% - 45px); /* Adjust width to account for smaller image */
+            }
+            .learn-more {
+                top: 10px; /* Adjust position */
+                right: 10px; /* Adjust position */
+                padding: 6px 10px; /* Adjust padding */
+            }
         }
     </style>
 </head>
