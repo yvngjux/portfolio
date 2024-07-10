@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julien El Achcar</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+        .social-media {
+            margin-top: 23px;
+        }
+        .social-media a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 8px;
+            padding: 3px 12px;
+            color: #ffffff;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.196);
+            border-radius: 50px;
+            border: 0.01px solid #ffffff00;
+            transition: none;
+        }
+        .social-media img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: rgb(28, 28, 28);
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            border: 1px solid #d3d3d300;
+            width: 500px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            position: relative;
+        }
+        .button:hover {
+            background-color: #444;
+        }
+        .button img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 7px;
+        }
+        .button-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: calc(100% - 55px); /* Adjust to account for image width and margin */
+        }
+        .button-title {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .button-title span {
+            margin-left: 0; /* Adjust if necessary */
+        }
+        .button-description {
+            margin-top: 5px;
+            font-size: 13px;
+            color: #bbbbbb9a;
+        }
+        .learn-more {
+            background-color: #00000064;
+            color: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>A versatile entrepreneur<br>with a wealth of experience across various niches, <br>constantly exploring new ventures <br> - embracing fresh projects at every turn.</h1>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/julien-el-achkar/" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"> @julien_lhk
+            </a>
+            <a href="https://www.instagram.com/julien_lhk/" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Instagram"> @julien_lhk
+            </a>
+            <a href="https://x.com/AchkarJulien" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter"> @AchkarJulien
+            </a>
+        </div>
+        <div class="content">
+            <div class="button-container">
+                <div class="button">
+                    <img src="https://img.icons8.com/?size=100&id=M725CLW4L7wE&format=png&color=000000" alt="Join Icon">
+                    <div class="button-content">
+                        <div class="button-title">
+                            <span>Join Our Community</span>
+                        </div>
+                        <div class="button-description">Join 1000+ Users Now To Learn From The Best</div>
+                    </div>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                <div class="button">
+                    <img src="images/jcamedia(1).jpg" alt="JCA Media">
+                    <div class="button-content">
+                        <div class="button-title">
+                            <span>JCA Media</span>
+                        </div>
+                        <div class="button-description">Find Out Why We Are The Best In The Market</div>
+                    </div>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                <div class="button">
+                    <img src="images/diflow.jpg" alt="Diflow">
+                    <div class="button-content">
+                        <div class="button-title">
+                            <span>Diflow</span>
+                        </div>
+                        <div class="button-description">Ready To Sign New Clients? Find Out More About Diflow</div>
+                    </div>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                <div class="button">
+                    <img src="images/cal.png" alt="calendly">
+                    <div class="button-content">
+                        <div class="button-title">
+                            <span>Book a Call With The Team</span>
+                        </div>
+                        <div class="button-description">Book A Call Now With The Team To Get In Touch With Us</div>
+                    </div>
+                    <a href="https://cal.com/jcamedia/30min" class="learn-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            © 2024 Julien El Achcar
+        </div>
+    </div>
+</body>
+</html>
